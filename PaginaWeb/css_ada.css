@@ -1,0 +1,117 @@
+* {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #545454;
+    background-color: #f4f5e5;
+    margin: 2%;
+}
+
+h1 {
+    color: #000;
+    margin-top: 30px;
+}
+
+#foto1ada{
+    height: 37%;
+    width: 27%;
+}
+
+#formulari_ada{
+    height: 37%;
+    width: 27%;
+}
+
+#div_formulari{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+h2{
+    color: #000;
+    margin-top: 5%;
+}
+
+#div_biografia {
+    display: flex;
+    align-items: center;
+    margin-left: 27%;
+}
+
+#fotomary{
+    height: 20%;
+    width: 20%;
+    margin-left: 5%;
+}
+
+#div_maquina_analitica {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+
+#foto_maquina_analitica {
+    height: 30%;
+    width: 30%;
+}
+
+#div_notes{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+#foto_notes_ada{
+    height: 30%;
+    width: 30%;
+}
+
+li{
+    list-style-type: none;
+}
+
+#div_reconeixements1 {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+#foto_logo_llenguatge{
+    height: 10%;
+    width: 10%;
+}
+
+#div_reconeixements2{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+
+#foto_medalla{
+    height: 15%;
+    width: 15%;
+}
+
+#div_reconeixements3{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+#foto_logo_college{
+    height: 10%;
+    width: 10%;
+}
+
+#div_reconeixements4{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+}
+
+#foto_simbol_ada{
+    height: 13%;
+    width: 13%;
+}
+

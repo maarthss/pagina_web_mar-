@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Margaret Hamilton</title>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="css_margaret.css">
+            <script src="js_pagina_principal.js"></script>
+        </head>
+        <body>
+            <section><!--Dins aquesta secció tenim una imatge i un botó que ens mostra una curiositat quan feim click, tot ficat a un  div per a facilitar el responsive-->
+                <h1 id="idh1">Margaret Hamilton</h1> 
+                    <div id="div_inicial">
+                        <button id="boto_curiositat" onclick="mostrar_curiositat()">Fes click aqui per <br> veure una curiositat</button>
+                        <img id="foto_hamilton1" src="fotos/margaret hamilton foto 2.jpg" alt="aquí veim na Margaret Hamilton amb el codi sencer del software de l'Apollo 11">
+                    </div>
+                <h2>Biografia</h2> <!--En aquesta secció tenim la seva biografia amb una imatge i, una altra vegada, tot dins un div-->
+                <div id="div_biografia">
+                        <img id="foto_hamilton2" src="fotos/margaret hamilton familia.jpg" alt="Margaret Hamilton amb la seva familia quan la seva filla era petita">
+                    <p>Margaret Hamilton va néixer a Indiana, a Estats Units, <br> el 17 d'agost de 1936 i sempre va tenir el suport de la seva familia <br> per estudiar lo que ella volia estudiar. Així, es <br>va graduar en matemàtiques i filosofia 
+                        a Earlham College <br> l'any 1958. Allà mateix va conèixer al seu primer marit, <br> amb el que es va casar el mateix any de la seva graduació i, <br> tan sols un any després, el 1959, va tenir a la seva <br>filla Lauren. Finalment 
+                        el 1967 es van divorciar i dos <br> anys després na Margaret es va tornar a casar.</p>
+                </div>
+                </section>
+            <section> <!--En aquesta secció veim la seva obra i la seva contribució a la informàtica, que es divideix en dos grans seccions, apollo i sage-->
+                <h2>Obra i contribució a la informàtica</h2>
+                <p>Quan va acabar d'estudiar es va mudar a Massachusetts i va agafar un lloc de feina <br> a n'es "Massachusetts Institute of Technology (MIT) com a desenvolupadora de software. <br>
+                    Arrel d'això li van sorgir els que serien els dos projectes més importants de la <br> seva vida: Els projectes SAGE i Apollo. </p>
+                <ul><!--Aquesta secció està tota ficada dins un div perque la intenció es que estigui una cosa davora l'altra-->
+                    <div id="div_sage"> 
+                        <li><b>Projecte SAGE</b> <br><br> Del 1961 al 1963 Hamilton va estar centrada en el <br> projecte SAGE, on va escriure software per al <br>prototip de computadora utilitzat per la Força Aèria <br>dels Estats Units per cercar
+                        avions enemics. <br>A més, també va escriure software per a un projecte <br>de rastreig de satèl·lits als laboratoris d'investigació <br> de Cambridge de les forces aèries. Va ser gràcies a la <br> seva dedicació
+                        en aquest projecte que la varen considerar <br> la perfecta candidata per a ser la desenvolupadora principal <br>del vol Apollo.</li>
+                            <img id="foto_sage" src="fotos/hamilton_sage.png" alt="Aqui veim a na Margaret amb un company seu del projecte SAGE">
+                    </div>
+                    <div id="div_apollo"> <!--En aquesta ocasió nomes els <p> están dins el div, ja que la imatge volia que no estàs dins la mateixa caixa-->
+                        <li><b>Apollo 11</b> <br><br>Durant la realització d'aquest projecte mundialment conegut, <br>Hamilton va tenir dos grans èxits:</li>
+                            <p>El primer va ser quan els astronautes estaven a punt de començar l'aterratge a la lluna, <br> que la computadora va mostrar els codis d'error 1201 i 1202. L'equip de <br> Hamilton ràpidament va saber 
+                                identificar que allò significava que la màquina esteia fent neteja <br> d'allò poc prioritari per a poder centrar tota la seva atenció en el descens <br> del coet. Amb els errors, Neil Armstrong tenia dubtes 
+                                sobre si començar l'allunatge, i Hamilton <br>li va assegurar que era segur, i així va ser, l'arribada a la lluna va ser exitosa. </p>
+                            <p>L'altre gran èxit té a veure amb la seva filla Lauren, que moltes nits havia d'anar amb <br> ella a la feina i un cop allà disfrutava de jugar a ser astronauta. Així, <br>un dia esteien provant un simulador i 
+                                es Hardware es va bloquejar perquè la nina va <br> pitjar el botó P01 (programa de pre-llançament). Davant això, na Margaret es va plantejar que tal <br>vegada hauria de fer un codi que mostràs un missatge que 
+                                digués que aquell botó no s'havia de <br>pijtar, però tothom li va dir que no era necessari ja que els astronautes estaven entrenats i <br> sabien que no l'havien de pitjar. No obstant, al següent vol, 
+                                l'Apollo 8, un atronauta va <br>cometre exactament el mateix error que la nina. A partir d'aquell moment, obviament, li varen <br> deixar posar el missatge que originalment volia posar.</p>
+                    </div>
+                    <img id="foto_apollo" src="fotos/foto_apollo.png" alt="Aqui veim el moment on els astronautes varen arribar a la lluna">
+                </ul>
+            </section>
+            <section>
+                <h2>Negocis</h2>
+                <div id="div_negocis">
+                    <p>Na Margaret Hamilton va ser molt emprenedora i va fundar vàries empreses. <br> La primera al 1976 amb Saydean Zeldin (que també era enginyera <br> de software), que nomia "Higher Order Software" (HOS) <br>
+                        i es centrava en el desenvolupament d'idees per a la prevenció d'errors als <br> software, gràcies a la experiència que havien tengut les dues al <br> MIT. Al març de 1986 va fundar "Hamilton Technologies" a 
+                        Cambridge. <br>Aquesta empresa estava enfocada en el llenguatge de sistemes universals (USL).</p>
+                        <img id="hamilton4" src="fotos/hamilton technologies foto.webp" alt="Logo de la seva empresa Hamilton Technologies">
+                </div>
+            </section>
+            <section>
+                <h2>Reconeixements</h2>
+                <ul>
+                    <li id="reconeixements1">Hamilton fou la primera que emprà el terme <br> "enginyeria de software", i quan ho va fer era objecte de burla. <br>Tot això fins que un dia a una reunió un home molt respectat <br> al sector va dir
+                        que estava d'acord amb ella i que el <br> software hauria de considerar-se una disciplina d'enginyeria.
+                    </li>
+                    <div id="reconeixements2">
+                            <video id="video2" controls autoplay src="videos/margaret hamilton miralls google video.mp4"></video>
+                        <li>Al 2019, Google va fer un homenatge a Hamilton <br>i va emprar 107.000 miralls que al reflexar-se la <br> llum de la lluna recreaven la imatge de Margaret i l'Apollo 11.</li> 
+                    </div>
+                            <iframe id="iframe1" src="https://blog.google/products/maps/margaret-hamilton-apollo-11-tribute/"></iframe>
+                    <li class="class_reconeixements">Al 1986 va rebre el premi<b>Ada Lovelace Award</b> <br> de l'Associació de dones a la informàtica</li>
+                    <li class="class_reconeixements">Al 2003, se li va donar el premi<b>NASA Exceptional <br>Space Act Award</b> en valor de $37 200 per contribucions <br>científiques i tècniques</li> 
+                    <li class="class_reconeixements">Al 2009 va rebre el premi<b>Outstanding Alumni Award</b> <br> del Earlham College</li>
+                    <li class="class_reconeixements">Al 2018, va ser investida<b><i>honoris causa</i></b> <br>per la Universitat Politècnica de Catalunya</li>
+                    <div id="reconeixements3">
+                        <li>Al 2016 li varen donar la<b>Medalla <br>Presidencial de la Llibertat</b>pel <br>desenvolupament del software de les <br> misions Apollo</li> 
+                            <img id="hamilton5" src="fotos/margaret hamilton nasa award.jpg" alt="Barack Obama posant-li la medalla a Hamilton">
+                    </div>
+                </ul> <!--Finalment aqui tenim el final de la web i un botó que crida a una funció per canviar de color el fons de la web-->
+                <p>Al llarg de la seva vida, na Margaret Hamilton ha rebut moltissims de premis i reconeixements, <br> i encara que aquí no es poden recopilar tots, aquests son els més importants.</p>
+                <button onclick="canviar_color()">Canviar color</button>
+            </section>
+        </body>
+    </html>

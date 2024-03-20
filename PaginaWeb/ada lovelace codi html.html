@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Ada Lovelace</title>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="css_ada.css">
+            <script src="js_pagina_principal.js"></script>
+        </head>
+        <body>
+            <header>
+                <h1>Ada Lovelace</h1>
+                    <div id="div_formulari">
+                        <!--Això és un formulari que a l'arxiu JS té la seva pròpia validació. Té un camp de text en línia, dos de radio i un de textarea-->
+                        <img id="foto1ada" src="fotos/gid_Ada.gif" alt="Aqui veim a n'Ada Lovelace">
+                            <form id="formulari_ada" action="mailto:mzapata@cifpfbmoll.eu" method="post" onsubmit="return validacio_ada()">
+                                <h4>Abans de començar a llegir, <br>contesta aquesta enquesta</h4>
+                                    <label for="pregunta1">Quin es el teu nom?</label> <br>
+                                        <input type="text" id="pregunta1" name="pregunta1" required pattern="[A-Za-z]{2,20}"> <br>
+                                    <label for="pregunta2">Saps qui era n'Ada Lovelace?</label> <br>
+                                        <input type="radio" name="pregunta2" id="resposta_si">Si
+                                        <input type="radio" name="pregunta2" id="resposta_no">No <br>
+                                    <label for="pregunta3">Escriu pel que pensis que es reconeguda</label> <br>
+                                        <textarea name="pregunta3" id="pregunta3" cols="30" rows="10"></textarea>
+                                    <button type="submit" onsubmit="afegir_alement_formulari()">Fes click aqui per acabar la enquesta</button>
+                            </form>
+                    </div>
+            </header>
+            <section> <!--Dins aquesta secció veim la biografia de n'Ada Lovelace. El primer paràgraf i la imatge estàn ficades dins un div per a facilitar el responsive-->
+                <h2>Biografia</h2>
+                    <div id="div_biografia">
+                        <p>Filla del poeta Lord Byron, Ada Lovelace va néixer <br>el 10 de desembre de 1815 a Londres. <br> La seva educació va ser molt exigent, i la seva <br> mare va posar molt d'interès en que la seva filla <br> aprengues 
+                            matemàtiques, ja que és la disciplina que <br> ella practicava. Així, va conèixer a la seva tutora <br> i a la que seria la seva amiga durant tota la vida, <br>
+                            Mary Somerville. 
+                        </p>
+                            <img id="fotomary" src="fotos/mary somerville foto 1.jpeg" alt="Aqui veim a na Mary Somerville, la tutora de n'Ada">
+                    </div>
+                <p>Lovelace va patir moltes malalties, periòdes que aprofitava per estudiar, i desde molt <br> petita va mostrar un interés molt gran per la mecànica, pasió que posteriorment va compartir <br> amb Charles Babbage, 
+                    que va ser el seu amic fins que ella va morir.
+                </p> 
+                <p>Quan va cumplir els 18 anys es va començar a relacionar amb l'alta societat anglesa i va <br> fer amistats de les que llavors va saber treure profit respecte a la seva carrera professional. <br> 
+                    Al 1835 va conèixer al seu marit, amb el que va tenir 3 fills. Encara que al principi del <br> seu matrimoni Ada Lovelace va ser molt feliç, després l'actitud pasotista de Lord King (el seu marit) <br>
+                    la va cansar, cosa que va fer que retomàs els seus estudis i es centràs molt més en <br> les matemàtiques.
+                </p>
+                <p>Finalment Ada Lovelace va morir amb tan sols 36 anys degut a un càncer d'uter, passant els  <br>darrers anys de la seva vida molt ofegada econòmicament per cupa d'intentar crear un algoritme <br> per a 
+                determinar el guanyador de les carreres de cavalls que va ser un fracàs.
+                </p> 
+            </section>
+            <section> <!--Aquesta secció mostra la seva obra i la seva contribució a la informàtica. Les imatges estàn agrupades amb <p> per una 
+                qüestió de la estètica de la pàgina i per a facilitar el responsive-->
+                <h2>Obra i contribució a la informàtica</h2>
+                <main>
+                    <p>Abans de parlar de la seva obra, hem de parlar una mica sobre la màquina analítica de <br>Charles Babbage i sobre la visió que tenia Lovelace d'ella.</p>
+                    <div id="div_maquina_analitica"> 
+                            <img id="foto_maquina_analitica" src="fotos/màquina analitica foto.jpg" alt="Aquí veim la màquina analítica de Babbage">
+                        <p>La màquina analítica va ser el primer disseny d'un <br> ordinador modern, és a dir, tenia <br>les mateixes bases que els nostres ordinadors.</p>
+                    </div>
+                    <div id="div_notes">
+                        <p>Lovelace va publicar la seva obra amb el nom <br> de<i>Notes</i>i eren escrits ordenats de la <br> lletra A a la G, tots, obviament, sobre la màquina <br> de Charles Babbage. <br> A la nota G hi havia el que durant molt de 
+                        temps va ser <br> considerat el primer algoritme del món, que era <br> per computar els números de Bernoulli.</p> 
+                            <img id="foto_notes_ada" src="fotos/notes ada lovelace.jpg" alt="Aquí veim les notes de n'Ada">
+                    </div>
+                    <p>Més envant es va veure que moltes de les seves notes esteien inspirades en les que no va <br>publicar Charles Babbage però si que va escriure abans que Lovelace. Però l'aportació d'Ada a la informàtica no és <br>
+                    específicament haver fet el primer algoritme de la història, sinó la seva visió revolucionaria <br> de la màquina analítica.
+                    </p>
+                    <p>Així com a Charles Babbage no li interessaven les conseqüències pràctiques de la seva màquina, <br> a Lovelace li fascinaven. Ella feia una distinció entre dades i processament de dades, i això va ser vital <br> per a que
+                    desenvolupàs la seva visió, que anava molt més enllà de que la màquina només servia <br> per fer operacions amb números. Lovelace va arribar a pensar fins i tot que es podria digitalitzar la música i <br> 
+                    fer gràfics amb l'ordinador, pensament que no anava gens errat i que pel seu temps era impensable <br> per tothom excepte per ella. 
+                    </p>
+                    <p>Podriem dir que Ada Lovelace va aportar una idea inicial de lo que seria més envant el software. <br> Això la convertiria en la primera enginyera de software de la història, sense encara existir tal cosa.</p>
+                </main>
+            </section> 
+            <section>
+                <h2>Reconeixements</h2> <!--En aquesta secció veim alguns reconeixements que ha tengut Ada al llarg de la història. Ens tornam trobar amb divs agrupant imatges i paràgrafs per a facilitar
+                el responsive i per a una qüestiño estètica de la imatge-->
+                <p>Avui dia, Ada Lovelace té molts de reconeixements, i si fesim una llista de tots aquí no acabariem mai, <br> entre ells hi ha:</p>
+                <nav>
+                    <ul>
+                        <div id="div_reconeixements1">
+                                <img id="foto_logo_llenguatge" src="fotos/llenguatge programació ada.png" alt="Aquí veim el logo del llenguatge de programació Ada">
+                            <li>Donar nom a un llenguatge de programació desenvolupat <br> pel Departament de Defensa dels EEUU (<b>llenguatge Ada</b>). <br>Un llenguatge orientat a objectes utilitzat molt a contextes <br> on es necessita molta 
+                                seguretat</li> 
+                        </div>
+                        <div id="div_reconeixements2">
+                            <li>Des del 1998 la British Computer Society otorga una <b>medalla <br> Lovelace</b> i patrocina el <b>Col·loqui Lovelace</b>, <br>que és una conferència annual per a dones universitàries.</li> 
+                                <img id="foto_medalla" src="fotos/medalla lovelace.jpeg" alt="Aquí veim la medalla Lovelace">
+                        </div>
+                        <div id="div_reconeixements3">
+                                <img id="foto_logo_college" src="fotos/ada college logo.png" alt="Aquí veim el logo del Ada College">
+                            <li>Existeix una universitat que es diu <b>Ada College</b>, <br> que està situada a Londres i se centra en habilitats digitals</li> 
+                        </div>
+                        <div id="div_reconeixements4">
+                            <li>El segon dimarts d'octubre es celebra l'<b>Ada Lovelace Day</b>, <br> un dia on es dona visibilitat a les dones que es dediquen <br> a les àrees STEM (Science, Technology, Engineering i Mathematics)</li>
+                                <img id="foto_simbol_ada" src="fotos/ada lovelace day.jpeg" alt="Aquí veim el simbol de l'Ada Lovelace Day">
+                        </div> 
+                    </ul>
+                </nav>
+            </section>
+            <footer> <!--Finalment, aquí tenim la conclusió de la web i un botó per a canviar el color de fons de la pantalla-->
+                <p>Aquests són alguns dels moltíssims reconeixements que té avui dia Ada Lovelace, la dona a la que el seu <br> tutor li va recomanar que deixàs d'estudiar perquè no pensava com havia de pensar una dona.</p>
+                <button onclick="canviar_color()">Fes click aqui per canviar el color de fons</button>
+            </footer>
+        </body>
+    </html>

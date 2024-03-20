@@ -1,0 +1,118 @@
+*{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #f4f5e5;
+    color: #545454;
+    margin: 2%;
+}
+
+h1{
+    color: #000;
+    margin-top: 2%;
+}
+
+h2{
+    color: #000;
+    margin-top: 5%;
+}
+
+#foto_hamilton1{
+    height: 25%;
+    width: 25%;
+}
+
+#div_biografia{
+    display: flex;
+    align-items: center;
+    margin-left: 17%;
+}
+
+#foto_hamilton2{
+    height: 35%;
+    width: 35%;
+}
+
+li{
+    list-style-type: none;
+}
+
+#div_sage{
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+}
+
+#foto_sage{
+    height: 40%;
+    width: 40%;
+}
+
+#div_apollo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#foto_apollo{
+    height: 30%;
+    width: 30%;
+}
+
+#hamilton4{
+    height: 13%;
+    width: 13%;
+}
+
+#div_negocis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reconeixements2{
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+#video2{
+    height: 40%;
+    width: 40%;
+}
+
+#iframe1{
+    height: 300px;
+    width: 30%;
+}
+
+.class_reconeixements{
+    margin-top: 5%;
+}
+
+#reconeixements3{
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+#hamilton5{
+    height: 20%;
+    width: 40%;
+}
+
+.p_curiositat{
+    font-size: 50%;
+    color: #f30202;
+}
+
+#div_inicial{
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+}
+
+#boto_curiositat{
+    border-color: #69a14f;
+}
